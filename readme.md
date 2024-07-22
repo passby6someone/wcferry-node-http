@@ -1,4 +1,4 @@
-# Wcferry Node.js HTTP Server
+# Wcferry Node.js Client HTTP Server
 
 本项目基于 [node-wcferry](https://github.com/stkevintan/node-wcferry) 和 [wcferry-node](https://github.com/dr-forget/wcferry-node) 改造而来，主要改动如下
 
