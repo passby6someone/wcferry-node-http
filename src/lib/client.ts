@@ -41,9 +41,7 @@ export class Wcferry {
       mode: options?.mode || "local",
       port: options?.port || 10086,
       host: options?.host || "127.0.0.1",
-      socketOptions: options?.socketOptions ?? {
-        recvTimeout: 100000,
-      },
+      socketOptions: options?.socketOptions ?? {},
       cacheDir: options?.cacheDir || DEFAULT_TMP_DIR,
       recvPyq: !!options?.recvPyq,
     };
